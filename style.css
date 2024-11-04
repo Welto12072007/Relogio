@@ -6,7 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #a7daff;
+    background-image: url(https://img.freepik.com/vetores-premium/relogio-enfrenta-padrao-sem-emenda-fundo-de-relogios-vintage-elementos-de-tempo-com-algarismos-romanos-e-arabicos-em-cores-sepia-decoracao-textil-papel-de-parede-de-papel-de-embrulho-impressao-ou-tecido-de-textura-vetorial_176411-3215.jpg);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .relogio {
@@ -17,9 +17,11 @@ body {
     border-radius: 50%;
     margin-bottom: 20px;
     overflow: hidden;
-    background-color: #fafafa;
+    background-color: white;
+    background-image: op;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
+
 
 .ponteiro-hora, .ponteiro-minuto, .ponteiro-segundo {
     position: absolute;
@@ -97,3 +99,4 @@ body {
     background-color: #bbb; 
     cursor: not-allowed;
 }
+
